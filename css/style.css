@@ -1,0 +1,135 @@
+.fun {
+    width: 100%;
+    height: 2985px;
+}
+
+
+.parent{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-left;
+    margin-bottom: 58px;
+    border: ivory;
+    position: absolute;
+    top: 185px;
+    left: 98px;
+}
+
+
+.container {
+    height: 1555px;
+    border: 33px solid white;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 230px;
+}
+.title {
+  color: white;
+  font-size: 314px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+body {
+ font-family: 'Karla', sans-serif;
+
+}
+   
+
+.child {
+    margin-left: 16px;
+    justify-content: flex-end;
+    margin-bottom: 58px;
+}
+
+.child a {
+    font-size: 4em;
+}
+
+.journey {
+    position: relative;
+
+}
+.adagency {
+    margin: 5px solid white;
+    background: white;
+    width: 100%;
+    height: 25%;
+}
+.paterson {
+    margin: 5px solid white;
+    background: white;
+    width: 100%;
+    height: 25%;
+}
+.resume {
+    margin: 5px solid white;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    height: 927px;
+    margin: 30px
+}
+
+.phone {
+    padding: 26px;
+    text-align: left;
+}
+
+
+
+    /* flex grow  wont keep the unit uniform, as you see the stays will be smaller than others. Flex
+}*/
+
+/* .quote {
+    border:5px solid salmon;
+    background: salmon;
+    padding: 25%;
+
+} */
+/* 
+.resume {
+    border:5px solid papayawhip;
+    background: papayawhip;
+    padding: 25%;
+}
+
+.slideshow {
+    border:5px solid salmon;
+    background: salmon;
+    padding: 25%;
+}
+
+.bening {
+    border:5px solid papayawhip;
+    background: papayawhip;
+    padding: 25%;
+} */
+
+/* 
+@media screen and (max-width:1200px) {
+    /* .container {
+        flex-direction: column;
+
+    } */
+    /* .super-long-content {
+        display:none; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+
+    }
+    .super-long-content {
+        display:none; 
+    }
+}
+
+ */
+

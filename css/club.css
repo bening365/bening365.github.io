@@ -1,0 +1,194 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    color: white;
+}
+
+.child { 
+    flex-grow: 2;
+}
+
+.logo{
+width: 121px;
+
+}
+
+.logo:hover {
+width: 160px;
+}
+
+h3 {
+    padding-top: 30px;
+    color: white;
+    text-shadow: 2px 3px 3px pink ;
+}
+
+
+
+.homepage { 
+    display: flex;
+flex-direction: row; 
+justify-content:space-evenly;
+  width: 100%;
+height: 578px;
+background: white; 
+ border: 1px solid grey;
+background-image: url("../images/full\ homepage.png");
+background-size: cover;
+background-position: bottom;
+
+}
+
+h1 {
+    font-weight: bold 900; 
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    text-shadow: 2px 3px 3px pink ;
+    
+
+}
+
+h2 {
+    font-display: italic;
+    text-shadow: 1px 2px  grey;
+    text-shadow: 1px 2px  #c276c67b ;
+    
+    color: beige;
+}
+
+.homepage-one{
+width: 65%;
+}
+
+.homepage-two{
+    width: 35%; 
+}
+
+#quotes {
+  display: flex;
+flex-direction: row; 
+justify-content:center;
+  width: 100%;
+height: 200px; 
+  background:white;
+
+}
+
+.quotes-baby {
+    opacity: 0;
+}
+.testimonialone {
+   display: flex;
+flex-direction: row; 
+justify-content:space-between;
+width: 100%;
+height: 400px;
+}
+
+.quotesone {
+  
+  width: 50%; 
+}
+
+.facekenn {
+    width: 448px;
+    height: 263px;
+    float: left;
+    z-index: 30000;
+    margin-left: -254px;
+    margin-top: 28px;
+
+}
+
+.kenbackground {
+    width: 582px;
+    height: 341px;
+    z-index: -1;
+    margin-left: -172px;
+   
+
+}
+
+
+#quotes-one {
+}
+
+
+
+.facekenn:hover {
+    width: 527px;
+    height: 300px;
+    float: left;
+    z-index:100;
+    margin-left: -292px;
+    margin-top: 8px;
+
+    
+}
+
+
+/*
+#quotes-one {
+  background: pink;
+  width: 50%;
+  background-image: url("../images/Kenn/19.png");
+  background-size: cover;
+
+
+
+  background-position: fixed; 
+  box-shadow: 5px blue ;
+ 
+  transition: all 0.2  ;
+  -webkit-transition: all 0.2s ease-in ;
+  -moz-transition: all 0.2s ease-in ;
+  -o-transition: all 0.2s ease-in ;
+
+}
+ 
+
+.testimonialtwo {
+    display: flex;
+ flex-direction: row; 
+ justify-content:space-between;
+ width: 100%;
+ height: 400px;
+ }
+ 
+ .quotestwo {
+   background: white;
+   width: 50%; 
+ }
+ 
+ #quotes-two {
+   background: pink;
+   width: 50%;
+   background-image: url("../images/");
+   background-size: cover; 
+}
+
+#quotes-one:hover {
+    background-image: url("../images/Kenn/18.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+
+
