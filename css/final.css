@@ -1,58 +1,57 @@
 body {
     font-family: 'Staatliches', cursive;
-    background: #F7F2F4;
+    background: #fbe9e7;
+   
+    
+   
 }
 
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   border: 1px black;
+   border: 1px #F46A6A;
    width: 100%;
    position: fixed;
    z-index: 500;
-   background: pink;
+
    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+.header h3 {
+color: #F46A6A; 
 
-.huffien-logo{
+
+}
+
+.header img {
+    opacity: 100;
+}
+
+.waves-effect {
+    opacity:;1
+}
+
+.waves-effect:hover {
+    opacity: 18.6;
+}
+
+
+.image1 {
+    opacity: 1;
+}
+
+
+.huffien-logo !important!{
     margin-left:30px;
+    opacity: 1;
 }
 
 h1:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
 
-h3 {
-    color: black;
-    background-color: pink;
-    letter-spacing: .1em;
-    text-shadow: 
-      0 -1px 0 #fff, 
-      0 1px 0 #F5FFFA, 
-      0 2px 0 #F0FFFF, 
-      0 3px 0 #F0F8FF, 
-      0 4px 0 #F8F8FF, 
-      0 5px 0 #F8F8FF, 
-      0 6px 0 #F5F5F5, 
-      0 7px 0 #FFF5EE, 
-      0 8px 0 #F5F5DC, 
-      0 9px 0 #FDF5E6, 
-      0 10px 0 #FFFAF0, 
-      0 11px 0 #FFFFF0, 
-      0 12px 0 #FAEBD7, 
-      0 13px 0 #FAF0E6, 
-      0 14px 0 #FFF0F5, 
-      0 15px 0 #FFE4E1, 
-      0 22px 30px pink (0, 0, 0, 0.9);
 
-  }
-
-  .h3 !important!{
-    margin-right: 242px;
-    margin-left: 107px;
-  }
 
 .logo{
 width: 160px;
@@ -62,6 +61,7 @@ height: 80px;
 
 .logo:hover {
 width: 200px;
+height: 90px;
 
 }
 /*count */
@@ -78,12 +78,18 @@ width: 200px;
 .counter {
     display: table-cell;
     /* margin: 15%; */
-    font-size: 90px;
+    font-size: 80px;
     background-color: transparent;
-    width: 9%;
+    width: 9%  ;
     height: 3px;
     vertical-align: middle;
 }
+
+.modal1 {
+    align-content: center;
+}
+
+
 
 
 #count {
@@ -91,7 +97,7 @@ width: 200px;
     margin-top: -75px;
     margin-left: 1%;
     z-index: 300;
-    background: #F0F8FF;
+   
 
 }
 
@@ -103,6 +109,7 @@ width: 200px;
     justify-content: center;
    border: 1px black;
    width: 100%;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.30), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .homie {
@@ -112,18 +119,28 @@ width: 200px;
 
 
 .map {
-background-image: url("../images/full\ homepage.png");
+background-image: url("../images/48.png");
 background-size: cover;
 background-position: bottom;
 width: 100%;
-height: 578px;
+height: 650px;
 
 }
+
+.map:hover {
+    background-image: url("../images/49.png");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 578px;
+    
+    }
+    
 
 .lights{
     z-index: 50;
     height: 512px;
-    width: 990px;
+    width: 100%;
     display: flex;
 }
 
@@ -149,20 +166,139 @@ h1 {
 
 }
 
+.mission {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
+    color: #F46A6A;
+    margin-top: 300px;
+    margin-bottom: -827px;
+    display: flex;
+    justify-content: center;
+    width: 880px;
+    height: 527px;
+    margin-left: 20px;
+    padding: 2px;
+  }
+
+.mission img {
+    width: 880px;
+    height: 527px;
+    margin-top: 0;
+    margin-left: -1px;
+
+}
+
+.missionchild {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    color: #F46A6A;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    width: 880px;
+    height: 527px;
+    margin-left: 20px;
+    padding: 2px;
+    z-index: -0.09;
+  }
+
+
+
+ul {
+    text-align: right;
+    -webkit-transform:rotate(90deg);
+-moz-transform:rotate(90deg);
+-o-transform:rotate(90deg);
+transform:rotate(90deg);
+font-size: 96px;
+margin-left: 778px;
+
+
+}
+
+#nameme {
+    opacity: 0;
+}
+
+#nameme:hover {
+    opacity: 1;
+}
+
+.counter img {
+    z-index: 1000000;
+}
 
 .pagetwo {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     margin:68px;
     color: #F46A6A;
+   
+    margin-right: 20px;
+    margin-top: 60px;
+    margin-bottom: 108px;
   }
+
+
+  .slideone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px black;
+    width: 100%;
+    background-color: #00695c;
+    height: 412px;
+    margin-bottom: 20%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+
+}
 
 .pageone {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-        margin:68px;
+        margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 108px;
 
       
 }
+
+
+.community {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px white;
+        width: 100%;
+        background-image: url(../images/sun.png);
+        background-position: bottom;
+        height: 492px;
+        margin-bottom: 32%;
+        background-size: contain;
+        padding-left: 20px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+
+}
+
+.communitytwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px white;
+    width: 100%;
+    background-image: url(../images/full\ homepage.png);
+    background-position: bottom;
+    height: 492px;
+    margin-bottom: 32%;
+    background-size: contain;
+    padding-left: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+
+}
+
+
 
 .homie {
     z-index: -1;
@@ -179,8 +315,48 @@ h1 {
     justify-content: center;
     border: 1px black;
     width: 100%;
+    HEIGHT: 430PX;
 
 }
+
+.carousel {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 300px;
+
+}
+
+
+
+element.style {
+    z-index: 0;
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0px) translateY(0px) translateX(0px) translateX(0px) translateZ(0px);
+}
+
+.carousel .carousel-item {
+    visibility: hidden;
+    width:506px !important;
+    height: 269px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 h2 {
     padding-top: 30px;
@@ -202,10 +378,12 @@ h2 {
     justify-content: space-between;
     border: 1px black;
     width: 100%;
+  
+    color: #ef9a9a;
+    height: 404px;
     
 
 }
-
 
 
 
@@ -223,138 +401,35 @@ h2 {
 
 
 .child {
-    margin-left: 30px;
-    margin-right: -159px;
+    margin-left: 41px;
+    margin-right: -148px;
+   
+    border-radius: 25% solid black ;
 }
-
-.father {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-   border: 1px solid black;
-   width: 100%;
-   height: 300px;
-}
-
-.aunt img {
-    width: 542px;
-    height: 318px;
-}
-
-
 
 
 .mother {
-  display: flex;
-  justify-content: center;
-}
-
-
-#father{
-  margin: 0 auto;
-  width: 50%;  /* Ancho del contenedor */
-}
-
-
-
-#father label {
-background: #f9f9f9;  /* Fondo de las pestañas */
-border-radius: .25em .25em 0 0;
-color: #888;  /* Color del texto de las pestañas */
-cursor: pointer;
-display: block;
-float: left;
-font-size: 1em;  /* Tamaño del texto de las pestañas */
-height: 2.5em;
-line-height: 2.5em;
-margin-right: .25em;
-padding: 0 1.5em;
-text-align: center;
-}
-
-#father input:hover + label {
-background: #ddd;  /* Fondo de las pestañas al pasar el cursor por encima */
-color: #666;  /* Color del texto de las pestañas al pasar el cursor por encima */
-}
-
-#container input:checked + label {
-	background: #f1f1f1;  /* Fondo de las pestañas al presionar */
-	color: #444; /* Color de las pestañas al presionar */
-	position: relative;
-	z-index: 6;
-	/*
-	-webkit-transition: .1s;
-	-moz-transition: .1s;
-	-o-transition: .1s;
-	-ms-transition: .1s;
-	*/
-}
-
-#container input {
-	height: 2.5em;
-	visibility: hidden;
-}
-
-#container {
-  margin: 0 auto;
-  width: 50%;  /* Ancho del contenedor */
-}
-
-#father {
-  margin: 0 auto;
-  width: 50%;  /* Ancho del contenedor */
-}
-
-#container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-   border: 1px black;
-   width: 100%;
-   background: black;  /* Fondo del contenido */
-	border-radius: 0 .25em .25em .25em;
-	min-height: 20em;  /* Alto del contenido */
-	position: relative;
-	width: 100%;
-	z-index: 5;
+    margin-left: -199px;
 }
 
 
-#container div {
-	opacity: 0;
-	padding: 1.5em;
-	position: absolute;
-	z-index: -100;
-	/*
-	transition: all linear 0.1s;
-	*/
-}
-
-#christopheone img {
-  float: center; 
-}
-
-
-#albertone img {
-	display: block;
-	margin: 0 auto 1em auto;
-}
-
-
-#container input#tab-1:checked ~ #content #content-1,
-#container input#tab-2:checked ~ #content #content-2,
-#container input#tab-3:checked ~ #content #content-3 {
-    opacity: 1;
-    z-index: 100;
-}
-
-input.visible {
-  visibility: visible !important;
+.father {
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin-left: 28px;
+    margin-top: -39px;
+    margin-right: 70px;
 }
 
 
 
-
+.hey {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
 
 
 
@@ -472,7 +547,3 @@ img {
     margin-bottom: -1000px;
     z-index: 30;
 }
-
-
-
-

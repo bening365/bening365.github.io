@@ -14,8 +14,9 @@ $("#here").hide();
   })
   
   document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.modal');
+    var elems = document.querySelectorAll('.modal', '.modaltwo');
     var instances = M.Modal.init(elems, options);
+    
   });
 
   // Or with jQuery
@@ -24,6 +25,8 @@ $("#here").hide();
     $('.modal').modal();
   });
        
+
+
 
 
 
@@ -162,25 +165,17 @@ $('.next-button.repeat-password').click(
       
       });
       
-      /* Every time the window is scrolled ... */
-      // $(window).scroll( function(){
-      
-      //     /* Check the location of each desired element */
-      //     $('h2').each( function(i){
-              
-      //         var bottom_of_object = $(this).position().top + $(this).outerHeight();
-      //         var bottom_of_window = $(window).scrollTop() + $(window).height();
-              
-      //         /* If the object is completely visible in the window, fade it it */
-      //         if( bottom_of_window > bottom_of_object ){
-                  
-      //             $(this).animate({'opacity':'1'},1500);
-                      
-      //         }
-              
-      //     }); 
-      
-      // });
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems, options);
+      });
+    
+      // Or with jQuery
+    
+      $(document).ready(function(){
+        $('.carousel').carousel();
+      });
+          
 
       $('.counter').each(function() {
         var $this = $(this),
