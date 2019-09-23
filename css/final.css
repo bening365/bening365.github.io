@@ -23,6 +23,16 @@ color: #F46A6A;
 
 
 }
+.modal-content p {
+    font-size: 30px;
+    color: black;
+}
+
+.modal-content img {
+    width: 209px !important;
+    height: 111px !important;
+    margin-left: 35%;
+}
 
 .header img {
     opacity: 100;
@@ -66,13 +76,8 @@ height: 90px;
 }
 /*count */
 
+h4 i {
 
-.count {
-    margin-top: -75px;
-    margin-left: 40%;
-    background-color: #F46A6A;
-    color:#fff;
-    max-width:800px;
 }
 
 .counter {
@@ -82,7 +87,15 @@ height: 90px;
     background-color: transparent;
     width: 9%  ;
     height: 3px;
-    vertical-align: middle;
+    color: #F46A6A;
+    justify-items: center;
+    justify-content: center;
+    padding-left:30px;
+   
+}
+
+.counter p {
+    align-items: center;
 }
 
 .modal1 {
@@ -90,12 +103,9 @@ height: 90px;
 }
 
 
-
-
 #count {
-    color: #FFD700;
-    margin-top: -75px;
-    margin-left: 1%;
+    color:  #F46A6A;
+    margin-top: 97px;
     z-index: 300;
    
 
@@ -123,7 +133,7 @@ background-image: url("../images/48.png");
 background-size: cover;
 background-position: bottom;
 width: 100%;
-height: 650px;
+height: 800px;
 
 }
 
@@ -219,12 +229,18 @@ margin-left: 778px;
 
 #nameme {
     opacity: 0;
+    margin-left: 30px;
 }
 
 #nameme:hover {
     opacity: 1;
 }
 
+#signme {
+    opacity:1;
+    margin-right: 30px;
+    margin-top: 30px;
+}
 .counter img {
     z-index: 1000000;
 }
@@ -246,7 +262,10 @@ margin-left: 778px;
     justify-content: space-between;
     border: 1px black;
     width: 100%;
-    background-color: #00695c;
+    background-image: url(../images/14.png);
+    background-position: 100  right;
+   
+
     height: 412px;
     margin-bottom: 20%;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -271,34 +290,62 @@ margin-left: 778px;
         border: 1px white;
         width: 100%;
         background-image: url(../images/sun.png);
-        background-position: bottom;
-        height: 492px;
-        margin-bottom: 32%;
-        background-size: contain;
         padding-left: 20px;
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
-
+        background-size: cover;
+        background-position: bottom;
+        width: 100%;
+        height: 650px;
 }
 
 .communitytwo {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: left;
     border: 1px white;
     width: 100%;
     background-image: url(../images/full\ homepage.png);
     background-position: bottom;
     height: 492px;
-    margin-bottom: 32%;
-    background-size: contain;
+    margin-bottom: 10%;
+ 
     padding-left: 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 650px;
 
 }
 
+.communitythree {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px white;
+    width: 100%;
+    
+    height: 9px;
+    margin-bottom: 32%;
+  
+    padding-left: 35%;
+    
 
+}
+
+.heart {
+    margin-bottom: -102px;
+}
+
+
+.centitwo {
+    opacity: 0;
+}
+
+.centitwo:hover {
+opacity: 1;
+}
 
 .homie {
     z-index: -1;
@@ -348,16 +395,6 @@ element.style {
 
 
 
-
-
-
-
-
-
-
-
-
-
 h2 {
     padding-top: 30px;
     color: #008294;
@@ -395,8 +432,8 @@ h2 {
 
 
 .child img {
-    width:235px;
-     height:140px;
+    width: 362px;
+    height: 230px;
 }
 
 
@@ -417,11 +454,11 @@ h2 {
 
 .father {
     display: flex;
-    
+    align-items: center;
     justify-content: space-evenly;
-    margin-left: 28px;
+    margin-left: -37px;
     margin-top: -39px;
-    margin-right: 70px;
+    margin-right: 58px;
 }
 
 
@@ -430,8 +467,6 @@ h2 {
     opacity: 0.6;
     filter: alpha(opacity=60);
 }
-
-
 
 
 
@@ -536,12 +571,25 @@ img {
 /*slide seven*/
 .footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     border: 1px black;
     width: 100%;
+    background-color: #008294;
+    height: 200px;
+    color: white;
+
 }
 
+.footer a {
+    color:
+
+}
+
+
+h5 {
+    padding-left: 10px;
+}
 
 #iamhere {
     margin-bottom: -1000px;
