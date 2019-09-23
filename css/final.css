@@ -1,8 +1,7 @@
 body {
     font-family: 'Staatliches', cursive;
     background: #fbe9e7;
-   
-    
+
    
 }
 
@@ -468,17 +467,6 @@ h2 {
     filter: alpha(opacity=60);
 }
 
-
-
-
-
-
-
-
-
-
-
-
 img {
     width: 461px;
     height: 269px;
@@ -620,4 +608,60 @@ h5 {
     opacity: 1;
     width: 65px;
     height: 39px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .homepage {
+        width: 140%;
+    }
+
+    .slideone {
+        width:140%;
+    }
+
+    .quotes {
+        width: 138%;
+    }
+
+    .community{
+        width: 140%;
+    }
+
+    .communitythree {
+        padding-left: 46%;
+    }
+
+    .mother {
+       
+        margin-left: 239px;
+    }
+    .child {
+        margin-left: -7px;
+        margin-right: -152px;
+    }
+    .father {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-left: 76px;
+            margin-top: -39px;
+            margin-right: -271px;
+    }
+    .carousel {
+        overflow: hidden;
+        position: relative;
+        width: 140% !important;
+        height: 368px;
+        -webkit-perspective: 500px;
+        perspective: 587px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform-origin: 0% 50%;
+        transform-origin: 24% 50%;
+    }
+
+    .communitytwo {
+        width: 140%;
+    }
 }
